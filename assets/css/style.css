@@ -1,0 +1,145 @@
+body {
+	background-image: url("../images/background1.png");
+}
+
+.bio {
+	line-height: 25px;	
+}
+/*.row>.thumbnail.text-center.col-sm-6 {
+	margin: 10px;
+}*/
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    background-color: #4aaaa5;
+}
+
+.thumbnail > .caption {
+	padding: 0;
+	color: #fff;
+}
+
+.navbar.navbar-default.col-sm-12 {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #fff;
+	border-bottom: 2px #666 solid;
+	padding: 0;
+}
+
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse {
+      	padding: 0;
+      }
+
+.nav:hover {
+	color: #4D4747;
+	font-weight: bolder; 
+}
+
+#name {
+	margin: auto;
+	font-size: 25px;
+	line-height: 20px;
+	background: #4aaaa5;
+	color: #fff;
+}
+
+.contentHead {
+	margin: 0;
+	color: #4aaaa5;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px #ddd solid; 
+}
+
+
+.container.col-sm-6 {
+	margin-top: 60px;
+	margin-bottom: 100px;
+	background: white;
+	padding: 15px;
+	border: 1px #ddd solid;
+
+}
+
+.carousel-caption.text-center {
+	background: #4aaaa5;
+	width: 100%;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.container.col-sm-2 {
+	margin-top: 60px;
+	margin-right: 10px;
+	margin-left: 10px;
+/*	border: 2px #ddd solid;*/
+
+
+}
+
+.btn.btn-default {
+	background-color: #4aaaa5;
+}
+
+.panel-body {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.panel-default>.panel-heading {
+	background: #fff;
+	color: #4aaaa5;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+
+
+.footer.navbar-fixed-bottom.text-center {
+	background-color: #666;
+	border-top: 2px #4aaaa5 solid;
+	color: #fff;
+	padding: 15px;
+	font-size: 10px;
+} 
+
+    @media screen and (max-width: 767px) {
+
+      .navbar.navbar-default.col-sm-12 {
+		padding-left: 15px;
+	  }
+
+      .container.col-sm-6 {
+        height: auto;
+        margin-bottom: 0;
+      }
+
+      .panel-default {
+      	margin-bottom: 60px;
+      }
+
+      #bs-example-navbar-collapse-1.navbar-collapse.collapse.show {
+      	border: none;
+      }
+		
+	  .contentHead {
+	  	text-align: center;
+	  }
+/*      .container-fluid {
+      	padding-left: 150px;
+      	padding-right: 150px;
+      }*/
+    }
+
