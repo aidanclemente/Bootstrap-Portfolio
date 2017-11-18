@@ -5,9 +5,6 @@ body {
 .bio {
 	line-height: 25px;	
 }
-/*.row>.thumbnail.text-center.col-sm-6 {
-	margin: 10px;
-}*/
 
 .thumbnail {
     position: relative;
@@ -34,9 +31,9 @@ body {
 	padding: 0;
 }
 
-      #bs-example-navbar-collapse-1.collapse.navbar-collapse {
-      	padding: 0;
-      }
+#bs-example-navbar-collapse-1.collapse.navbar-collapse {
+   	padding: 0 17% 0 0;
+}
 
 .nav:hover {
 	color: #4D4747;
@@ -137,9 +134,6 @@ body {
 	  .contentHead {
 	  	text-align: center;
 	  }
-/*      .container-fluid {
-      	padding-left: 150px;
-      	padding-right: 150px;
-      }*/
+
     }
 
